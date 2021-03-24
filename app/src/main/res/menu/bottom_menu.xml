@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="레시피 검색"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:id="@+id/search_recipe"/>
+    <item
+        android:title="재료로 검색"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:id="@+id/search_ingredient"/>
+    <item
+        android:title="추천"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:id="@+id/search_recommend"/>
 
 </menu>
