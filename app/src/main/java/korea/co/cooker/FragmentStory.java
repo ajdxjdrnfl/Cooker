@@ -8,11 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class FragmentSearch extends Fragment {
+public class FragmentStory extends Fragment {
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment_search, container, false);
+        ViewGroup rootView = (ViewGroup)inflater.inflate(R.layout.fragment_story, container, false);
         return rootView;
     }
 }

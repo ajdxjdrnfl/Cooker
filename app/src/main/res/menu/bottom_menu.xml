@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:title="레시피 검색"
+        android:title="홈"
         android:icon="@drawable/ic_launcher_foreground"
-        android:id="@+id/search_recipe"/>
+        android:id="@+id/menu1"/>
     <item
-        android:title="재료로 검색"
+        android:title="인기"
         android:icon="@drawable/ic_launcher_foreground"
-        android:id="@+id/search_ingredient"/>
+        android:id="@+id/menu2"/>
     <item
-        android:title="추천"
+        android:title="글쓰기"
         android:icon="@drawable/ic_launcher_foreground"
-        android:id="@+id/search_recommend"/>
+        android:id="@+id/menu3"/>
+    <item
+        android:title="좋아요"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:id="@+id/menu4"/>
+    <item
+        android:title="스토리"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:id="@+id/menu5"/>
 
 </menu>
