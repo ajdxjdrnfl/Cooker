@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -25,7 +24,7 @@ public class SearchTextAdapter extends RecyclerView.Adapter<SearchTextAdapter.Vi
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int i) {
         LayoutInflater inflater= (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View itemView = inflater.inflate(R.layout.search_text, parent, false);
+        View itemView = inflater.inflate(R.layout.form_searchtext, parent, false);
 
         return new ViewHolder(itemView);
     }
@@ -60,7 +59,7 @@ public class SearchTextAdapter extends RecyclerView.Adapter<SearchTextAdapter.Vi
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            text = itemView.findViewById(R.id.textView4);
+            text = itemView.findViewById(R.id.textView);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
